@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <CheckBox
+        android:id="@+id/cbEmail"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/title_tab_notification_mail"/>
+
+    <Spinner
+        android:id="@+id/emailSpinner"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:entries="@array/time_options" />
+
+    <CheckBox
+        android:id="@+id/cbPhone"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/title_tab_notification_phone"
+        android:layout_marginTop="60dp"/>
+
+    <Spinner
+        android:id="@+id/phoneSpinner"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:entries="@array/time_options"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:id="@+id/notification_set_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbPhone"
+        android:layout_marginTop="20dp"
+        android:text="@string/action_notification"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>

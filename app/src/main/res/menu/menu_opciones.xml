@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mRememberMe"
+        android:title="@string/mremember_me_this"
+        android:orderInCategory="1">
+    </item>
+    <item android:id="@+id/mThings"
+        android:title="@string/mthings_to_remember"
+        android:orderInCategory="2">
+    </item>
+    <item android:id="@+id/mMyFriends"
+        android:title="@string/mmy_friends"
+        android:orderInCategory="3">
+    </item>
+    <item android:id="@+id/mMyAccount"
+        android:title="@string/mmy_account"
+        android:orderInCategory="3">
+    </item>
+</menu>

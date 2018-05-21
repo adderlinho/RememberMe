@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.AboutMe">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar">
+    </include>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_about_me"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/userAboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:text="@string/prompt_user"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/emailAboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/userAboutMe"
+        android:layout_centerHorizontal="true"
+        android:text="@string/prompt_email"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/deviceAboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/emailAboutMe"
+        android:layout_centerHorizontal="true"
+        android:text="@string/prompt_device_id"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/codeAboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/deviceAboutMe"
+        android:layout_centerHorizontal="true"
+        android:text="@string/prompt_code"
+        android:textIsSelectable="true"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

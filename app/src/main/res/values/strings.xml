@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Remember Me</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_sendTo">Send To</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_user">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Create Account</string>
+    <string name="action_sign_register">Dont have account ?</string>
+    <string name="action_forgot_password">Forgot password ?</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_user">This username is too short</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="mremember_me_this">Remember Me This</string>
+    <string name="mthings_to_remember">Things To Remember</string>
+    <string name="mmy_friends">My Friends</string>
+    <string name="mmy_account">My Account</string>
+
+    <string name="title_activity_loading">LoadingActivity</string>
+
+    <string name="prompt_title">Title</string>
+    <string name="prompt_message">Message</string>
+    <string name="action_create_reminder">Create Reminder</string>
+    <string name="prompt_date">Date</string>
+    <string name="prompt_hour">Hour</string>
+    <string name="prompt_repeat">Repeat</string>
+    <string name="prompt_notification">Notification</string>
+
+    <string name="prompt_addFriend">Add your friend</string>
+    <string name="prompt_code">Code</string>
+    <string name="prompt_status_things_to_reminder">There are no reminders programmed into your account.</string>
+    <string name="prompt_status_friends">There are no friends added to your account.</string>
+    <string name="prompt_device_id">Device Id</string>
+
+    <string name="stop_alarm">stop</string>
+    <string name="btn_create">create</string>
+    <string name="btn_add">add</string>
+
+    <string name="title_tab_friend">Friend</string>
+    <string name="title_about_me">About Me</string>
+    <string name="title_dialog_repeat">Choose How To Repeat</string>
+    <string name="title_dialog_reminders">Choose a type reminder</string>
+    <string name="title_tab_repeat_one_time">One Time</string>
+    <string name="title_tab_repeat_daily">Daily</string>
+    <string name="title_tab_repeat_every_weekday">Every weekday(Mon-Fri)</string>
+    <string name="title_tab_repeat_weekly">Weekly</string>
+    <string name="title_tab_repeat_monthly">Monthly</string>
+    <string name="title_tab_repeat_yearly">Yearly</string>
+
+    <string name="title_tab_notification_mail">Email</string>
+    <string name="title_tab_notification_phone">Phone</string>
+    <string name="action_notification">Set</string>
+
+    <string name="title_chek_mon">Monday</string>
+    <string name="title_chek_tue">Tuesday</string>
+    <string name="title_chek_wed">Wednesday</string>
+    <string name="title_chek_thu">Thursday</string>
+    <string name="title_chek_fri">Friday</string>
+    <string name="title_chek_sat">Saturday</string>
+    <string name="title_chek_sun">Sunday</string>
+
+    <string-array name="time_options">
+        <item>10 min.</item>
+        <item>20 min.</item>
+        <item>30 min.</item>
+        <item>40 min.</item>
+        <item>50 min.</item>
+        <item>60 min.</item>
+    </string-array>
+
+
+    <!--ERROR STRINGS-->
+    <string name="error_server_1">!Something happened in the connection! Try again.</string>
+    <string name="error_invalid_code_friend">!Something happened in the connection! It is possible that the entered code is incorrect.</string>
+    <string name="error_invalid_title">The title is necessary to create the reminder.</string>
+    <string name="error_invalid_message">The message is necessary to create the reminder.</string>
+    <string name="error_invalid_date">The date is necessary to create the reminder.</string>
+    <string name="error_invalid_time">The time is necessary to create the reminder.</string>
+    <string name="error_invalid_notification">The notification is necessary to create the reminder.</string>
+    <string name="error_friend_already_among">This user is already among your friends list.</string>
+    <string name="title_exit">Exit?</string>
+    <string name="question_exit">Are you sure you want to exit?</string>
+    <string name="question_delete">Do you really want to delete it?</string>
+
+    <!--SUCCESSFULLL STRINGS-->
+    <string name="successfull_server_1">You have successfully accessed our system.</string>
+    <string name="successfull_server_2">The reminder has been stored on the server successfully.</string>
+    <string name="question_notification1">See</string>
+    <string name="question_notification2">Cancel</string>
+
+</resources>
